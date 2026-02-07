@@ -144,16 +144,16 @@
 
         <div class="grid md:grid-cols-3 gap-3">
             <div class="md:col-span-2 flex gap-2">
-                <input type="number" id="answer-input" step="any" placeholder="Value..." style="flex: 1; min-width: 60px;">
-                <select id="unit-select" style="width: 80px; min-width: 60px;">
+                <input type="number" id="answer-input" step="any" placeholder="Value..." style="flex: 1; min-width: 40px;">
+                <select id="unit-select" style="width: 80px; min-width: 40px;">
                     <option value="">Unit</option>
                     <option value="V">V</option>
                     <option value="A">A</option>
                 </select>
             </div>
             <div class="flex gap-2">
-                <button id="check-btn" onclick="checkAnswer()" disabled class="btn-keith bg-blue-600" style="flex: 1; min-width: 60px;">Check</button>
-                <button id="next-btn" onclick="nextQuestion(true)" class="btn-keith bg-gray-700" style="flex: 1; min-width: 60px;">Next</button>
+                <button id="check-btn" onclick="checkAnswer()" disabled class="btn-keith bg-blue-600" style="flex: 1; min-width: 40px;">Check</button>
+                <button id="next-btn" onclick="nextQuestion(true)" class="btn-keith bg-gray-700" style="flex: 1; min-width: 40px;">Next</button>
             </div>
         </div>
 
@@ -185,7 +185,7 @@
 </div>
 
 <div id="results-screen" class="overlay hidden">
-    <div class="keith-card p-8" style="max-width: 400px; width: 100%; text-align: center; border: 2px solid var(--blue-600);">
+    <div class="keith-card p-8" style="max-width: 350px; width: 100%; text-align: center; border: 2px solid var(--blue-600);">
         <h2 style="font-size: 2.25rem; font-weight: 900; font-style: italic;">GAME OVER</h2>
         <div id="final-stats" style="margin: 1.5rem 0;"></div>
         <button onclick="location.reload()" class="btn-keith bg-blue-600" style="width: 100%; padding: 1rem; font-size: 1.25rem; margin-bottom: 1rem;">Play Again</button>
